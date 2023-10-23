@@ -1,8 +1,8 @@
 import cv2
 import numpy as np 
 
-train = cv2.imread(r'C:\Users\91987\Documents\python\prof Ks Venkatesh Projects\Image Stiching\train.jpg')
-query = cv2.imread(r'C:\Users\91987\Documents\python\prof Ks Venkatesh Projects\Image Stiching\query.jpg')
+train = cv2.imread(r'Data\train.jpg')
+query = cv2.imread(r'Data\query.jpg')
 train_RGB = cv2.cvtColor(train,cv2.COLOR_BGR2RGB)
 query_RGB = cv2.cvtColor(query,cv2.COLOR_BGR2RGB)
 train_gray = cv2.cvtColor(train_RGB,cv2.COLOR_RGB2GRAY)
